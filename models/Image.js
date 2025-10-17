@@ -11,7 +11,6 @@ const ImageSchema = new mongoose.Schema({
   original_filename: String,
   folder: String,
   createdAt: { type: Date, default: Date.now },
-  // any extra metadata
 });
 
 export default mongoose.model("Image", ImageSchema);
